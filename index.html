@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth antialiased">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏎️</text></svg>" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Porsche 911 Turbo S | Engineered to Defy Gravity</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,600&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+    
+    <script>
+      // Automatic detection for direct file:// opening
+      if (window.location.protocol === 'file:') {
+        // Automatically redirect to the running local dev server
+        setTimeout(function() {
+          window.location.replace('http://localhost:3000');
+        }, 300);
+      }
+    </script>
+  </head>
+  <body class="bg-[#050507] text-[#f5f5f7] selection:bg-[#0071e3] selection:text-white overflow-x-hidden font-sans m-0 p-0">
+    <!-- Fallback container shown only if opened directly via file:// -->
+    <noscript>
+      <div style="background:#050507;color:#fff;padding:40px;font-family:sans-serif;text-align:center;">
+        Please enable JavaScript to view the Porsche 911 Turbo S experience.
+      </div>
+    </noscript>
+
+    <div id="file-protocol-notice" style="display:none;min-height:100vh;background:#050507;color:#fff;display:none;flex-direction:column;align-items:center;justify-content:center;font-family:'Plus Jakarta Sans',sans-serif;padding:24px;text-align:center;">
+      <div style="max-width:540px;background:#0d0d11;padding:40px;border-radius:24px;border:1px solid rgba(255,255,255,0.1);box-shadow:0 0 60px rgba(0,0,0,0.8);">
+        <div style="width:56px;height:56px;background:rgba(234,179,8,0.15);border:1px solid rgba(234,179,8,0.3);border-radius:16px;display:flex;align-items:center;justify-content:center;margin:0 auto 20px auto;font-size:24px;">
+          🏎️
+        </div>
+        <div style="font-size:11px;font-family:monospace;letter-spacing:2px;color:#eab308;text-transform:uppercase;margin-bottom:8px;">
+          Porsche 911 Turbo S
+        </div>
+        <h2 style="font-size:26px;font-weight:800;margin:0 0 12px 0;letter-spacing:-0.5px;">
+          Opening Experience...
+        </h2>
+        <p style="font-size:14px;color:rgba(255,255,255,0.6);line-height:1.6;margin:0 0 28px 0;">
+          React & Vite scrollytelling requires a local web server (already running). Redirecting you to <strong>http://localhost:3000</strong>...
+        </p>
+        <a href="http://localhost:3000" style="display:inline-block;background:#eab308;color:#000;font-weight:700;font-size:13px;letter-spacing:1px;text-transform:uppercase;text-decoration:none;padding:16px 36px;border-radius:14px;transition:all 0.2s;box-shadow:0 0 30px rgba(234,179,8,0.4);">
+          Click to Open Localhost:3000 →
+        </a>
+      </div>
+    </div>
+
+    <script>
+      if (window.location.protocol === 'file:') {
+        var notice = document.getElementById('file-protocol-notice');
+        if (notice) notice.style.display = 'flex';
+      }
+    </script>
+
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
